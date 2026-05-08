@@ -4,7 +4,7 @@ for(let botao = 0; botao < 4; botao++){
     botoes[botao].onclick = function(){
 
         for(let = 0; outro < 4; outro++){
-            botoe[outro].classList.remove("ativo")
+            botoes[outro].classList.remove("ativo")
         }
 
         botoes[botao].classList.add("ativo")
